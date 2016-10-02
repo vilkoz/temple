@@ -1,10 +1,21 @@
-#include <stdio.h> 
-#include <unistd.h>
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   main.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: vrybalko <marvin@42.fr>                    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2016/10/02 12:14:35 by vrybalko          #+#    #+#             */
+/*   Updated: 2016/10/02 20:03:14 by vrybalko         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
 
-void    ft_sustantua(int size);
+#include <stdio.h>
 
-int	main(int argc, char **argv)
+void	sastantua(int size);
+
+int		main(void)
 {
-    ft_sastantua(3);
-    return (0);
+	sastantua(12);
+	return (0);
 }
